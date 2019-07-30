@@ -1,0 +1,29 @@
+main {
+  text-align: center;
+}
+
+.row {
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  align-items: baseline;
+  
+}
+
+.column-left {
+  flex: 50%;
+  text-align: right;
+  padding: 5px;
+}
+
+.column-right {
+  flex: 50%;
+  margin: 10px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 50%;
+}
+
+/*  */
