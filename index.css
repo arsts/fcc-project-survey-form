@@ -8,6 +8,10 @@ body {
   background-color: #a9d7d1;
 }
 
+p {
+  margin: 0;
+}
+
 #form-container {
   margin: 0 auto;
   width: 75%;
@@ -46,4 +50,15 @@ margin: 10px;
 #comments {
   height: 50px;
   resize: vertical;
+}
+
+#submit {
+  background-color: #59ace0;
+  border-radius: 4px;
+  color: white;
+  font-size: 1em;
+  height: 40px;
+  width: 96px;
+  margin: 0 auto;
+  border: 0px solid;
 }
